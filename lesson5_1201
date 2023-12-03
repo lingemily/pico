@@ -1,0 +1,12 @@
+import pyinputplus as pyip
+
+age = pyip.inputInt("請輸入年齡:",max=100,min=0,blank=True)
+
+if age == "":
+    print("普遍級")
+elif age >= 18:
+    print("限制級")
+elif age >= 13:
+    print("輔導級")
+else:
+    print("普遍級")
