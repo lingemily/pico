@@ -1,4 +1,4 @@
 import time
 
 print(time.gmtime())
-print(time.localtime())
+print(time.localtime)

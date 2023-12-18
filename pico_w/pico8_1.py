@@ -1,4 +1,7 @@
 import time
+from machine import Pin
 
-print(time.gmtime())
-print(time.localtime())
+led = Pin("LED", Pin.OUT)
+led.value(1)
+led.value(0)
+
