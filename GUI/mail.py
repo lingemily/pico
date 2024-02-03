@@ -3,7 +3,6 @@ import pandas as pd
 import requests
 from streamlit_autorefresh import st_autorefresh
 
-
 st_autorefresh(interval=5000)
 
 st.title('Pico project_職能發展協會')
