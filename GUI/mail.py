@@ -6,7 +6,7 @@ import dotenv
 import os
 
 
-dotenv.load_dotenv
+dotenv.load_dotenv()
 
 st_autorefresh(interval=5000)
 
