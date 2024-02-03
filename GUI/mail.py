@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import requests
 from streamlit_autorefresh import st_autorefresh
+import dotenv
+import os
+
+
+dotenv.load_dotenv
 
 st_autorefresh(interval=5000)
 
